@@ -1,5 +1,6 @@
 body {
   font-family: "Merriweather", serif;
+  font-family: "Inter", sans-serif;
 }
 
 header {
@@ -108,4 +109,209 @@ main section {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.card {
+  margin: 124px 0px 80px 140px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  width: 570px;
+  height: 482px;
+  padding: 100px 380px;
+}
+
+.start {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+
+.end {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.card-items {
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  border-style: none;
+}
+
+.circle {
+  margin: 120px, 140px;
+  width: 1600px;
+  height: 700px;
+}
+
+.offer {
+  display: flex;
+}
+
+.one {
+  width: 250px;
+  padding: 0 0 0 150px;
+}
+
+.two {
+  width: 370px;
+  border-radius: 450px;
+  border: 15px solid #f00;
+  padding: 25px;
+}
+
+.third {
+  padding: 0 0 0 220px;
+  width: 200px;
+}
+
+.unknown {
+  padding: 0 0 0 190px;
+}
+
+#sas {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#sas-2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+#sas-3 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+#grd {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#grd-2 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.shopping {
+  margin: 120px 140px;
+}
+
+.pic {
+  width: 400px;
+  height: 450px;
+}
+
+.art {
+  margin-bottom: 24px;
+}
+
+#side {
+  padding-left: 20px;
+}
+
+#side-2 {
+  padding-left: 20px;
+}
+
+#side-3 {
+  padding-left: 20px;
+}
+
+#side-4 {
+  padding-left: 20px;
+}
+
+.gift {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.awesome {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.note {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.papers {
+  margin: 124px 0px 80px 140px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  width: 570px;
+  height: 482px;
+  padding: 100px 380px;
+}
+.items {
+  text-align: center;
+}
+
+.form {
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  background: #fff;
+  text-align: center;
+}
+
+.footer-column {
+  display: flex;
 }
