@@ -313,5 +313,202 @@ main section {
 }
 
 .footer-column {
+  background: #070211;
+  width: 1600px;
+  height: 500px;
+}
+
+.row {
   display: flex;
+  justify-content: space-around;
+}
+
+.first-row {
+  display: flex;
+  gap: 3px;
+}
+
+.second-row {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 245px;
+}
+
+.address-2 {
+  margin-bottom: 250px;
+  margin-top: 50px;
+}
+
+.social-links {
+  margin-top: 150px;
+  margin-right: 100px;
+}
+
+.bonus {
+  margin: 120px 140px;
+  width: 1320px;
+  height: 650px;
+  background-image: url("../images/Rectangle 2.png");
+  background-size: 100% 29%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 16px 0px 16px 16px;
+}
+
+.extra {
+  text-align: center;
+}
+
+/* .photograph {
+  display: flex;
+} */
+
+#img-1 {
+  width: 400px;
+  height: 300px;
+  margin-top: 52px;
+  margin-left: 35px;
+}
+
+#img-2 {
+  width: 1320px;
+  height: 100px;
+}
+
+#img-3 {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 150px;
+  margin-left: 70px;
+}
+
+#img-4 {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 150px;
+}
+
+.try {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}
+
+input[type="email"] {
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  width: 648px;
+  height: 72px;
+}
+
+.click {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border-style: none;
+  width: 210px;
+  height: 77px;
+}
+
+.news {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.news-p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.r {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.k {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.add {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  width: 370px;
+  height: 80px;
+}
+
+.address-3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.num {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.call {
+  margin-top: 27px;
+  width: 24px;
+  height: 24px;
+}
+
+.tap {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.web {
+  margin-top: 27px;
+  width: 24px;
+  height: 24px;
+}
+
+.var {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
 }
